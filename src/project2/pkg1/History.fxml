@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="528.0" prefWidth="413.0" style="-fx-background-color: #95a6c3; -fx-border-color: #273a59; -fx-border-width: 5;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project2.pkg1.HistoryController">
+   <children>
+      <Label layoutX="137.0" layoutY="14.0" prefHeight="62.0" prefWidth="138.0" text="History" textFill="#273a59">
+         <font>
+            <Font name="Harlow Solid Italic" size="36.0" />
+         </font>
+      </Label>
+      <ListView fx:id="listView1" layoutX="14.0" layoutY="137.0" prefHeight="378.0" prefWidth="386.0" />
+      <Button layoutX="14.0" layoutY="20.0" mnemonicParsing="false" onAction="#backButton" prefHeight="40.0" prefWidth="61.0" style="-fx-background-color: #273a59;" text="&lt;" textFill="#95a6c3">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

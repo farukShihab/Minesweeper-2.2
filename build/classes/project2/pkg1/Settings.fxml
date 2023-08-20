@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="538.0" prefWidth="506.0" style="-fx-background-color: #95a6c3; -fx-border-color: #273a59; -fx-border-width: 9;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project2.pkg1.SettingsController">
+   <children>
+      <PasswordField fx:id="oldPassword" layoutX="14.0" layoutY="227.0" prefHeight="26.0" prefWidth="226.0" />
+      <Label layoutX="25.0" layoutY="32.0" prefHeight="114.0" prefWidth="206.0" text="Update Login Info" textFill="#273a59">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="89.0" layoutY="354.0" mnemonicParsing="false" onAction="#updateAction" prefHeight="46.0" prefWidth="73.0" style="-fx-background-color: #273a59;" text="Update" textFill="#95a6c3">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="15.0" layoutY="133.0" prefHeight="26.0" prefWidth="122.0" text="Username">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="15.0" layoutY="201.0" prefHeight="26.0" prefWidth="122.0" text="Old Password">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="15.0" layoutY="269.0" prefHeight="26.0" prefWidth="122.0" text="New Password">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="newPassword" layoutX="13.0" layoutY="295.0" prefHeight="26.0" prefWidth="226.0" />
+      <TextField fx:id="username" layoutX="15.0" layoutY="159.0" prefHeight="26.0" prefWidth="226.0" />
+      <Label layoutX="276.0" layoutY="66.0" prefHeight="46.0" prefWidth="199.0" text="Select Theme">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Line endX="2.199981689453125" endY="489.0" layoutX="253.0" layoutY="31.0" startX="2.199981689453125" startY="-19.800003051757812" stroke="#273a59" strokeWidth="5.0" />
+      <RadioButton layoutX="289.0" layoutY="151.0" mnemonicParsing="false" onAction="#b1" text="Light Blue">
+         <toggleGroup>
+            <ToggleGroup fx:id="Colors" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton layoutX="290.0" layoutY="206.0" mnemonicParsing="false" onAction="#b2" text="Red" toggleGroup="$Colors" />
+      <RadioButton layoutX="291.0" layoutY="262.0" mnemonicParsing="false" onAction="#b3" text="Pink" toggleGroup="$Colors" />
+      <RadioButton layoutX="292.0" layoutY="321.0" mnemonicParsing="false" onAction="#b4" text="Green" toggleGroup="$Colors" />
+      <RadioButton layoutX="292.0" layoutY="377.0" mnemonicParsing="false" onAction="#b5" text="Light" toggleGroup="$Colors" />
+      <RadioButton layoutX="292.0" layoutY="438.0" mnemonicParsing="false" onAction="#b6" text="Dark" toggleGroup="$Colors" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#95a6c3" height="40.0" layoutX="394.0" layoutY="140.0" stroke="#273a59" strokeType="INSIDE" strokeWidth="3.0" width="42.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e30000" height="40.0" layoutX="394.0" layoutY="195.0" stroke="#5e0101" strokeType="INSIDE" strokeWidth="3.0" width="42.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff6767" height="40.0" layoutX="394.0" layoutY="251.0" stroke="#9e0000" strokeType="INSIDE" strokeWidth="3.0" width="42.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#24ff71" height="40.0" layoutX="394.0" layoutY="310.0" stroke="#005303" strokeType="INSIDE" strokeWidth="3.0" width="42.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="40.0" layoutX="394.0" layoutY="366.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="42.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.5473684072494507" green="0.5473684072494507" blue="0.5473684072494507" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="40.0" layoutX="394.0" layoutY="427.0" stroke="#8c8c8c" strokeType="INSIDE" strokeWidth="3.0" width="42.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.5473684072494507" green="0.5473684072494507" blue="0.5473684072494507" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Button layoutX="350.0" layoutY="487.0" mnemonicParsing="false" onAction="#doneButton" text="Done" />
+      <Button layoutX="25.0" layoutY="20.0" mnemonicParsing="false" onAction="#doneButton" prefHeight="40.0" prefWidth="62.0" text="Home" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="514.0" prefWidth="725.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project2.pkg1.Login1Controller">
+   <children>
+      <AnchorPane fx:id="login_form" layoutX="74.0" layoutY="57.0" prefHeight="422.0" prefWidth="571.0" AnchorPane.bottomAnchor="58.0" AnchorPane.leftAnchor="74.0" AnchorPane.rightAnchor="74.0" AnchorPane.topAnchor="57.0">
+         <children>
+            <AnchorPane layoutX="-3.0" layoutY="-6.0" prefHeight="428.0" prefWidth="290.0" style="-fx-background-color: #273a59;">
+               <children>
+                  <Label layoutX="46.0" layoutY="83.0" prefHeight="142.0" prefWidth="227.0" text="Mine" textFill="#fffafa">
+                     <font>
+                        <Font name="Harlow Solid Italic" size="55.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="63.0" layoutY="199.0" prefHeight="110.0" prefWidth="194.0" text="Sweeper" textFill="#fffefe">
+                     <font>
+                        <Font name="Harlow Solid Italic" size="55.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="287.0" prefHeight="422.0" prefWidth="320.0" style="-fx-background-color: #95a6c3;">
+               <children>
+                  <Label layoutX="84.0" layoutY="47.0" text="Sign In">
+                     <font>
+                        <Font name="Harlow Solid Italic" size="36.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="68.0" layoutY="136.0" text="Username" />
+                  <Label layoutX="69.0" layoutY="192.0" text="Password" />
+                  <TextField fx:id="username" layoutX="65.0" layoutY="154.0" promptText="Enter username" />
+                  <PasswordField fx:id="password" layoutX="65.0" layoutY="210.0" promptText="Enter password" />
+                  <Button fx:id="login" layoutX="109.0" layoutY="253.0" mnemonicParsing="false" onAction="#loginAction" prefHeight="38.0" prefWidth="65.0" text="LogIn" />
+                  <Hyperlink fx:id="creat_acc" layoutX="60.0" layoutY="327.0" onAction="#changeForm" text="Create new account?" textFill="#2c0b0b">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Hyperlink>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="signup_form" layoutX="78.0" layoutY="54.0" prefHeight="374.0" prefWidth="529.0" visible="false">
+         <children>
+            <AnchorPane layoutX="305.0" prefHeight="428.0" prefWidth="299.0" style="-fx-background-color: #273a59;">
+               <children>
+                  <Label layoutX="28.0" layoutY="92.0" prefHeight="101.0" prefWidth="180.0" text="Mine" textFill="#fffafa">
+                     <font>
+                        <Font name="Baskerville Old Face" size="48.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="70.0" layoutY="158.0" text="sweeper" textFill="#fffefe">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="-7.0" prefHeight="428.0" prefWidth="312.0" style="-fx-background-color: #95a6c3;">
+               <children>
+                  <Label layoutX="62.0" layoutY="53.0" text="Sign Up">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="su_username" layoutX="58.0" layoutY="200.0" promptText="Username" />
+                  <PasswordField fx:id="su_password" layoutX="58.0" layoutY="238.0" promptText="Password" />
+                  <Button fx:id="signup_btn" layoutX="107.0" layoutY="285.0" mnemonicParsing="false" onAction="#signUp" prefHeight="38.0" prefWidth="65.0" style="-fx-background-color: #8eb6fd;" text="SignUp" />
+                  <Hyperlink fx:id="login_acc" layoutX="78.0" layoutY="392.0" onAction="#changeForm" text="Login your account?" textFill="#140e0e">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Hyperlink>
+                  <TextField fx:id="su_email" layoutX="58.0" layoutY="161.0" promptText="Email Adress" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

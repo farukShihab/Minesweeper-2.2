@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="590.0" prefWidth="469.0" style="-fx-background-color: #95a6c3; -fx-border-color: #273a59; -fx-border-width: 5;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project2.pkg1.MediumController">
+   <children>
+      <Button fx:id="b1" layoutX="26.0" layoutY="105.0" mnemonicParsing="false" onMousePressed="#b1press" onMouseReleased="#b1release" onScroll="#flag1" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="b2" layoutX="78.0" layoutY="105.0" mnemonicParsing="false" onMousePressed="#b2press" onMouseReleased="#b2release" onScroll="#flag2" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b3" layoutX="130.0" layoutY="105.0" mnemonicParsing="false" onMousePressed="#b3press" onMouseReleased="#b3release" onScroll="#flag3" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b4" layoutX="182.0" layoutY="105.0" mnemonicParsing="false" onMousePressed="#b4press" onMouseReleased="#b4release" onScroll="#flag4" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b5" layoutX="234.0" layoutY="105.0" mnemonicParsing="false" onMousePressed="#b5press" onMouseReleased="#b5release" onScroll="#flag5" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b9" layoutX="26.0" layoutY="153.0" mnemonicParsing="false" onMousePressed="#b9press" onMouseReleased="#b9release" onScroll="#flag9" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b10" layoutX="78.0" layoutY="153.0" mnemonicParsing="false" onMousePressed="#b10press" onMouseReleased="#b10release" onScroll="#flag10" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b11" layoutX="130.0" layoutY="153.0" mnemonicParsing="false" onMousePressed="#b11press" onMouseReleased="#b11release" onScroll="#flag11" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b12" layoutX="182.0" layoutY="153.0" mnemonicParsing="false" onMousePressed="#b12press" onMouseReleased="#b12release" onScroll="#flag12" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b13" layoutX="234.0" layoutY="153.0" mnemonicParsing="false" onMousePressed="#b13press" onMouseReleased="#b13release" onScroll="#flag13" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b17" layoutX="26.0" layoutY="201.0" mnemonicParsing="false" onMousePressed="#b17press" onMouseReleased="#b17release" onScroll="#flag17" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b18" layoutX="78.0" layoutY="201.0" mnemonicParsing="false" onMousePressed="#b18press" onMouseReleased="#b18release" onScroll="#flag18" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b19" layoutX="130.0" layoutY="201.0" mnemonicParsing="false" onMousePressed="#b19press" onMouseReleased="#b19release" onScroll="#flag19" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b20" layoutX="182.0" layoutY="201.0" mnemonicParsing="false" onMousePressed="#b20press" onMouseReleased="#b20release" onScroll="#flag20" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b21" layoutX="234.0" layoutY="201.0" mnemonicParsing="false" onMousePressed="#b21press" onMouseReleased="#b21release" onScroll="#flag21" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b25" layoutX="26.0" layoutY="249.0" mnemonicParsing="false" onMousePressed="#b25press" onMouseReleased="#b25release" onScroll="#flag25" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b26" layoutX="78.0" layoutY="249.0" mnemonicParsing="false" onMousePressed="#b26press" onMouseReleased="#b26release" onScroll="#flag26" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b27" layoutX="130.0" layoutY="249.0" mnemonicParsing="false" onMousePressed="#b27press" onMouseReleased="#b27release" onScroll="#flag27" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b28" layoutX="182.0" layoutY="249.0" mnemonicParsing="false" onMousePressed="#b28press" onMouseReleased="#b28release" onScroll="#flag28" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b29" layoutX="234.0" layoutY="249.0" mnemonicParsing="false" onMousePressed="#b29press" onMouseReleased="#b29release" onScroll="#flag29" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Polygon fx:id="p1" fill="#ff1f1f" layoutX="6.0" layoutY="90.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p2" fill="#ff1f1f" layoutX="58.0" layoutY="90.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p3" fill="#ff1f1f" layoutX="110.0" layoutY="90.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p4" fill="#ff1f1f" layoutX="162.0" layoutY="90.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p5" fill="#ff1f1f" layoutX="214.0" layoutY="90.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p9" fill="#ff1f1f" layoutX="5.0" layoutY="138.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p10" fill="#ff1f1f" layoutX="57.0" layoutY="138.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p11" fill="#ff1f1f" layoutX="109.0" layoutY="138.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p12" fill="#ff1f1f" layoutX="161.0" layoutY="138.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p13" fill="#ff1f1f" layoutX="213.0" layoutY="138.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p17" fill="#ff1f1f" layoutX="5.0" layoutY="189.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p18" fill="#ff1f1f" layoutX="57.0" layoutY="189.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p19" fill="#ff1f1f" layoutX="108.0" layoutY="189.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p20" fill="#ff1f1f" layoutX="160.0" layoutY="189.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p21" fill="#ff1f1f" layoutX="213.0" layoutY="189.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p25" fill="#ff1f1f" layoutX="4.0" layoutY="234.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p26" fill="#ff1f1f" layoutX="56.0" layoutY="234.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p27" fill="#ff1f1f" layoutX="109.0" layoutY="234.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p28" fill="#ff1f1f" layoutX="159.0" layoutY="234.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p29" fill="#ff1f1f" layoutX="212.0" layoutY="234.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label fx:id="totalScore" layoutX="78.0" layoutY="56.0" prefHeight="34.0" prefWidth="80.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="257.0" layoutY="11.0" prefHeight="34.0" prefWidth="141.0" text="Bombs Exploded:" textFill="#273a59">
+         <font>
+            <Font name="Harlow Solid Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="bombsExploded" layoutX="385.0" layoutY="11.0" prefHeight="34.0" prefWidth="62.0" textFill="#273a59">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="bombsDetected" layoutX="390.0" layoutY="56.0" prefHeight="34.0" prefWidth="62.0" textFill="#273a59">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Button layoutX="390.0" layoutY="510.0" mnemonicParsing="false" onAction="#exitButton" prefHeight="34.0" prefWidth="52.0" style="-fx-background-color: #273a59; -fx-border-width: 4;" text="Exit" textFill="#95a6c3">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="b6" layoutX="286.0" layoutY="105.0" mnemonicParsing="false" onMousePressed="#b6press" onMouseReleased="#b6release" onScroll="#flag6" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="b7" layoutX="338.0" layoutY="105.0" mnemonicParsing="false" onMousePressed="#b7press" onMouseReleased="#b7release" onScroll="#flag7" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="b8" layoutX="390.0" layoutY="105.0" mnemonicParsing="false" onMousePressed="#b8press" onMouseReleased="#b8release" onScroll="#flag8" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="b14" layoutX="286.0" layoutY="153.0" mnemonicParsing="false" onMousePressed="#b14press" onMouseReleased="#b14release" onScroll="#flag14" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b33" layoutX="26.0" layoutY="297.0" mnemonicParsing="false" onMousePressed="#b33press" onMouseReleased="#b33release" onScroll="#flag33" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b41" layoutX="26.0" layoutY="345.0" mnemonicParsing="false" onMousePressed="#b41press" onMouseReleased="#b41release" onScroll="#flag41" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b49" layoutX="26.0" layoutY="393.0" mnemonicParsing="false" onMousePressed="#b49press" onMouseReleased="#b49release" onScroll="#flag49" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b57" layoutX="26.0" layoutY="440.0" mnemonicParsing="false" onMousePressed="#b57press" onMouseReleased="#b57release" onScroll="#flag57" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b35" layoutX="130.0" layoutY="297.0" mnemonicParsing="false" onMousePressed="#b35press" onMouseReleased="#b35release" onScroll="#flag35" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b58" layoutX="78.0" layoutY="440.0" mnemonicParsing="false" onMousePressed="#b58press" onMouseReleased="#b58release" onScroll="#flag58" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b50" layoutX="78.0" layoutY="393.0" mnemonicParsing="false" onMousePressed="#b50press" onMouseReleased="#b50release" onScroll="#flag50" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b42" layoutX="78.0" layoutY="345.0" mnemonicParsing="false" onMousePressed="#b42press" onMouseReleased="#b42release" onScroll="#flag42" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b34" layoutX="78.0" layoutY="297.0" mnemonicParsing="false" onMousePressed="#b34press" onMouseReleased="#b34release" onScroll="#flag34" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b52" layoutX="182.0" layoutY="393.0" mnemonicParsing="false" onMousePressed="#b52press" onMouseReleased="#b52release" onScroll="#flag52" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b44" layoutX="182.0" layoutY="345.0" mnemonicParsing="false" onMousePressed="#b44press" onMouseReleased="#b44release" onScroll="#flag44" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b36" layoutX="182.0" layoutY="297.0" mnemonicParsing="false" onMousePressed="#b36press" onMouseReleased="#b36release" onScroll="#flag36" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b59" layoutX="130.0" layoutY="440.0" mnemonicParsing="false" onMousePressed="#b59press" onMouseReleased="#b59release" onScroll="#flag59" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b51" layoutX="130.0" layoutY="393.0" mnemonicParsing="false" onMousePressed="#b51press" onMouseReleased="#b51release" onScroll="#flag51" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b43" layoutX="130.0" layoutY="345.0" mnemonicParsing="false" onMousePressed="#b43press" onMouseReleased="#b43release" onScroll="#flag43" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b61" layoutX="234.0" layoutY="440.0" mnemonicParsing="false" onMousePressed="#b61press" onMouseReleased="#b61release" onScroll="#flag61" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b53" layoutX="234.0" layoutY="393.0" mnemonicParsing="false" onMousePressed="#b53press" onMouseReleased="#b53release" onScroll="#flag53" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b45" layoutX="234.0" layoutY="345.0" mnemonicParsing="false" onMousePressed="#b45press" onMouseReleased="#b45release" onScroll="#flag45" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b37" layoutX="234.0" layoutY="297.0" mnemonicParsing="false" onMousePressed="#b37press" onMouseReleased="#b37release" onScroll="#flag37" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b60" layoutX="182.0" layoutY="440.0" mnemonicParsing="false" onMousePressed="#b60press" onMouseReleased="#b60release" onScroll="#flag60" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b62" layoutX="286.0" layoutY="440.0" mnemonicParsing="false" onMousePressed="#b62press" onMouseReleased="#b62release" onScroll="#flag62" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b54" layoutX="286.0" layoutY="393.0" mnemonicParsing="false" onMousePressed="#b54press" onMouseReleased="#b54release" onScroll="#flag54" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b46" layoutX="286.0" layoutY="345.0" mnemonicParsing="false" onMousePressed="#b46press" onMouseReleased="#b46release" onScroll="#flag46" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b38" layoutX="286.0" layoutY="297.0" mnemonicParsing="false" onMousePressed="#b38press" onMouseReleased="#b38release" onScroll="#flag38" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b30" layoutX="286.0" layoutY="249.0" mnemonicParsing="false" onMousePressed="#b30press" onMouseReleased="#b30release" onScroll="#flag30" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b24" layoutX="390.0" layoutY="201.0" mnemonicParsing="false" onMousePressed="#b24press" onMouseReleased="#b24release" onScroll="#flag24" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b63" layoutX="338.0" layoutY="440.0" mnemonicParsing="false" onMousePressed="#b63press" onMouseReleased="#b63release" onScroll="#flag63" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b22" layoutX="286.0" layoutY="201.0" mnemonicParsing="false" onMousePressed="#b22press" onMouseReleased="#b22release" onScroll="#flag22" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b16" layoutX="390.0" layoutY="153.0" mnemonicParsing="false" onMousePressed="#b16press" onMouseReleased="#b16release" onScroll="#flag16" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b15" layoutX="338.0" layoutY="153.0" mnemonicParsing="false" onMousePressed="#b15press" onMouseReleased="#b15release" onScroll="#flag15" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b48" layoutX="390.0" layoutY="345.0" mnemonicParsing="false" onMousePressed="#b48press" onMouseReleased="#b48release" onScroll="#flag48" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b40" layoutX="390.0" layoutY="297.0" mnemonicParsing="false" onMousePressed="#b40press" onMouseReleased="#b40release" onScroll="#flag40" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b32" layoutX="390.0" layoutY="249.0" mnemonicParsing="false" onMousePressed="#b32press" onMouseReleased="#b32release" onScroll="#flag32" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b55" layoutX="338.0" layoutY="393.0" mnemonicParsing="false" onMousePressed="#b55press" onMouseReleased="#b55release" onScroll="#flag55" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b47" layoutX="338.0" layoutY="345.0" mnemonicParsing="false" onMousePressed="#b47press" onMouseReleased="#b47release" onScroll="#flag47" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b39" layoutX="338.0" layoutY="297.0" mnemonicParsing="false" onMousePressed="#b39press" onMouseReleased="#b39release" onScroll="#flag39" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b31" layoutX="338.0" layoutY="249.0" mnemonicParsing="false" onMousePressed="#b31press" onMouseReleased="#b31release" onScroll="#flag31" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b23" layoutX="338.0" layoutY="201.0" mnemonicParsing="false" onMousePressed="#b23press" onMouseReleased="#b23release" onScroll="#flag23" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b64" layoutX="390.0" layoutY="440.0" mnemonicParsing="false" onMousePressed="#b64press" onMouseReleased="#b64release" onScroll="#flag64" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Button fx:id="b56" layoutX="390.0" layoutY="393.0" mnemonicParsing="false" onMousePressed="#b56press" onMouseReleased="#b56release" onScroll="#flag56" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #708fc4; -fx-border-color: #273a59; -fx-border-width: 4;" />
+      <Polygon fx:id="p6" fill="#ff1f1f" layoutX="266.0" layoutY="90.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p7" fill="#ff1f1f" layoutX="318.0" layoutY="90.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p8" fill="#ff1f1f" layoutX="369.0" layoutY="90.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p14" fill="#ff1f1f" layoutX="265.0" layoutY="138.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p15" fill="#ff1f1f" layoutX="317.0" layoutY="138.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p16" fill="#ff1f1f" layoutX="368.0" layoutY="138.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p22" fill="#ff1f1f" layoutX="264.0" layoutY="189.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p23" fill="#ff1f1f" layoutX="316.0" layoutY="189.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p24" fill="#ff1f1f" layoutX="367.0" layoutY="189.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p30" fill="#ff1f1f" layoutX="265.0" layoutY="234.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p31" fill="#ff1f1f" layoutX="317.0" layoutY="234.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p32" fill="#ff1f1f" layoutX="367.0" layoutY="234.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p33" fill="#ff1f1f" layoutX="3.0" layoutY="282.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p41" fill="#ff1f1f" layoutX="2.0" layoutY="330.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p40" fill="#ff1f1f" layoutX="366.0" layoutY="284.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p39" fill="#ff1f1f" layoutX="317.0" layoutY="282.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p38" fill="#ff1f1f" layoutX="265.0" layoutY="284.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p37" fill="#ff1f1f" layoutX="212.0" layoutY="284.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p36" fill="#ff1f1f" layoutX="161.0" layoutY="284.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p35" fill="#ff1f1f" layoutX="108.0" layoutY="284.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p34" fill="#ff1f1f" layoutX="55.0" layoutY="284.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p48" fill="#ff1f1f" layoutX="369.0" layoutY="332.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p47" fill="#ff1f1f" layoutX="317.0" layoutY="332.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p46" fill="#ff1f1f" layoutX="264.0" layoutY="332.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p45" fill="#ff1f1f" layoutX="213.0" layoutY="332.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p44" fill="#ff1f1f" layoutX="161.0" layoutY="332.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p43" fill="#ff1f1f" layoutX="109.0" layoutY="332.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p42" fill="#ff1f1f" layoutX="56.0" layoutY="332.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p49" fill="#ff1f1f" layoutX="3.0" layoutY="378.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p56" fill="#ff1f1f" layoutX="366.0" layoutY="380.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p55" fill="#ff1f1f" layoutX="315.0" layoutY="380.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p54" fill="#ff1f1f" layoutX="265.0" layoutY="380.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p53" fill="#ff1f1f" layoutX="211.0" layoutY="380.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p52" fill="#ff1f1f" layoutX="160.0" layoutY="380.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p51" fill="#ff1f1f" layoutX="107.0" layoutY="379.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p50" fill="#ff1f1f" layoutX="54.0" layoutY="379.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p57" fill="#ff1f1f" layoutX="1.0" layoutY="425.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p64" fill="#ff1f1f" layoutX="368.0" layoutY="427.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p63" fill="#ff1f1f" layoutX="315.0" layoutY="425.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p62" fill="#ff1f1f" layoutX="263.0" layoutY="427.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p61" fill="#ff1f1f" layoutX="212.0" layoutY="427.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p60" fill="#ff1f1f" layoutX="161.0" layoutY="427.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p59" fill="#ff1f1f" layoutX="107.0" layoutY="427.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fx:id="p58" fill="#ff1f1f" layoutX="54.0" layoutY="425.0" opacity="0.0" points="31.599987030029297, 22.199989318847656, 31.599987030029297, 39.0, 44.0000114440918, 32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="257.0" layoutY="56.0" prefHeight="34.0" prefWidth="141.0" text="Bombs Detected:" textFill="#273a59">
+         <font>
+            <Font name="Harlow Solid Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="56.0" prefHeight="34.0" prefWidth="141.0" text="Score:" textFill="#273a59">
+         <font>
+            <Font name="Harlow Solid Italic" size="17.0" />
+         </font>
+      </Label>
+      <Circle fill="#ff1f1f" layoutX="52.0" layoutY="129.0" onMousePressed="#b1press" onMouseReleased="#b1release" onScroll="#flag1" opacity="0.0" radius="13.0" stroke="TRANSPARENT" strokeType="INSIDE" strokeWidth="0.0" />
+   </children>
+</AnchorPane>
